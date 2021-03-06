@@ -1,0 +1,22 @@
+{
+    "name": "test/module-simpleregistration",
+    "description": "Show simple registration form in front end and admin grid",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Chandana Nandivelugu",
+            "email": "chandana.nandivelugu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Test\\Simpleregistration\\": ""
+        }
+    }
+}
