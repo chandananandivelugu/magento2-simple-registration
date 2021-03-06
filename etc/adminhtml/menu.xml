@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="Test::top_level" title="Test" module="Test_Simpleregistration" sortOrder="9999" resource="Magento_Backend::content"/>
+		<add id="Test_Simpleregistration::index_index" title="index index" module="Test_Simpleregistration" sortOrder="9999" resource="Test_Simpleregistration::index_index" parent="Test::top_level" action="register/index/index"/>
+		<add id="Test_Simpleregistration::test_simpleregistration_registration" title="Registration" module="Test_Simpleregistration" sortOrder="9999" resource="Magento_Backend::content" parent="Test::top_level" action="test_simpleregistration/registration/index"/>
+	</menu>
+</config>
